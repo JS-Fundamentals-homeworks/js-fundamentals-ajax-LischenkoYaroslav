@@ -20,7 +20,7 @@ function getUserCity() {
       if (user) {
         userCity.textContent = user.address.city;
       } else {
-        console.log(user + " User not found");
+        console.log("User not found");
       }
     });
 }
